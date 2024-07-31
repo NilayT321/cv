@@ -1,0 +1,20 @@
+\RequirePackage[margin=1.0in]{geometry}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amsthm}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{fontawesome}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{multicol}
+
+\newcommand{\email}[1]{\faEnvelope\ \href{mailto:#1}{#1}} 
+\newcommand{\phone}[1]{\faPhone\ #1}
+\newcommand{\github}[2]{\faGithub\ \href{#1}{#2}}
+\newcommand{\linkedin}[2]{\faLinkedinSquare\ \href{#1}{#2}}
+\newcommand{\location}[1]{\faMapMarker\ #1}
+\newcommand{\website}[1]{\faUser\ \href{#1}{Personal Site}}
+
+% Resume section 
+\newcommand{\ressect}[1]{{\noindent \large \bfseries \sc #1:} \par \vspace{-0.5em}\noindent\hrulefill \par}
+
