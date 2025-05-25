@@ -8,6 +8,16 @@
 \RequirePackage{enumitem}
 \RequirePackage{multicol}
 
+\hypersetup{
+		colorlinks = true, 
+		linkcolor = blue
+}
+
+\setlist{nolistsep, noitemsep}
+
+\newcommand{\entryspace}{\vspace{1.0em}}
+\newcommand{\newCourse}[2]{#1 \hfill #2}
+
 \newcommand{\email}[1]{\faEnvelope\ \href{mailto:#1}{\texttt{#1}}} 
 \newcommand{\phone}[1]{\faPhone\ #1}
 \newcommand{\github}[2]{\faGithub\ \href{#1}{#2}}
@@ -16,5 +26,5 @@
 \newcommand{\website}[1]{\faUser\ \href{#1}{Personal Site}}
 
 % Resume section 
-\newcommand{\ressect}[1]{{\noindent \large \bfseries \sc #1:} \par \vspace{-0.5em}\noindent\hrulefill \par}
+\newcommand{\ressect}[1]{{\noindent \large \bfseries \sc #1:} \par \vspace{-0.8em}\noindent\hrulefill \par}
 
